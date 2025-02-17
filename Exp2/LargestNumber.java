@@ -3,10 +3,10 @@ import java.util.Scanner;
 
 public class LargestNumber {
     public static int findLargest(int[] arr) {
-        int max = arr[0]; // Assume first element is the largest
+        int max = arr[0]; 
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > max) {
-                max = arr[i]; // Update max if a larger element is found
+                max = arr[i]; 
             }
         }
         return max;
